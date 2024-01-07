@@ -27,6 +27,9 @@
         "<leader>fb" = "buffers";
       };
     };
+    neogit = {
+      enable = true;
+    }
   };
   colorschemes.tokyonight.enable = true;
 }

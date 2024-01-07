@@ -18,6 +18,12 @@
       tsserver = {
         enable = true;
       };
+      rnix-lsp = {
+        enable = true;
+      }
+      pylyzer = {
+        enable = true;
+      };
     };
   };
   plugins.nvim-cmp = {
