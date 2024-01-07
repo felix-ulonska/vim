@@ -20,7 +20,7 @@
       };
       rnix-lsp = {
         enable = true;
-      }
+      };
       pylyzer = {
         enable = true;
       };
