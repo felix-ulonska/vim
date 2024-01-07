@@ -21,7 +21,7 @@
       rnix-lsp = {
         enable = true;
       };
-      pylyzer = {
+      pylsp = {
         enable = true;
       };
     };
