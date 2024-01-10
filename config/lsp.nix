@@ -24,6 +24,9 @@
       pylsp = {
         enable = true;
       };
+      omnisharp = {
+        enable = true;
+      };
     };
   };
   plugins.nvim-cmp = {
