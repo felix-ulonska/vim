@@ -27,6 +27,9 @@
       omnisharp = {
         enable = true;
       };
+      ltex = {
+        enable = true;
+      };
     };
   };
   plugins.nvim-cmp = {
