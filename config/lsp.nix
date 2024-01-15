@@ -33,6 +33,9 @@
 		language = "de-DE";
 	};
       };
+      clangd = {
+        enable = true;
+      };
     };
   };
   plugins.nvim-cmp = {
