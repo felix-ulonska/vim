@@ -29,7 +29,9 @@
       };
       ltex = {
         enable = true;
-	language = "de";
+	settings = {
+		language = "de-DE";
+	};
       };
     };
   };
