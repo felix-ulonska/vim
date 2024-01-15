@@ -29,6 +29,7 @@
       };
       ltex = {
         enable = true;
+	language = "de";
       };
     };
   };
