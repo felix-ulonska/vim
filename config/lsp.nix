@@ -36,6 +36,10 @@
       clangd = {
         enable = true;
       };
+      rust-analyzer = {
+        enable = true;
+	installRustc = true;
+      };
     };
   };
   plugins.nvim-cmp = {
