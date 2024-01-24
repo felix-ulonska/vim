@@ -36,6 +36,9 @@
       clangd = {
         enable = true;
       };
+      gopls = {
+        enable = true;
+      };
       rust-analyzer = {
         enable = true;
 	installRustc = true;
