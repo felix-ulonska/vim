@@ -1,7 +1,4 @@
 {
-  plugins.lsp-format = {
-	  enable = true;
-  };
   plugins.lsp = {
     enable = true;
     keymaps = {
