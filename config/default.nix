@@ -8,7 +8,7 @@
   ];
   plugins = {
     chadtree.enable =true;
-    noice.enable = true;
+    noice.enable = false;
     noice = {
       lsp = {
         hover.enabled = true;
