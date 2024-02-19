@@ -30,7 +30,7 @@
       ltex = {
         enable = true;
 	settings = {
-		language = "de-DE";
+		language = "en-EN";
 	};
       };
       clangd = {
