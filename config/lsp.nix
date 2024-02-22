@@ -1,6 +1,9 @@
 {
-  plugins.lsp = {
+  plugins.lsp-format = {
     enable = true;
+    lspServersToEnable = ["omnisharp"]; 
+  };
+  plugins.lsp = {
     keymaps = {
       lspBuf = {
         K = "hover";
