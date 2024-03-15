@@ -5,6 +5,7 @@
     ./lsp.nix
     ./barbar.nix
     ./keymaps.nix
+    ./octo.nix
   ];
   plugins = {
     chadtree.enable =true;

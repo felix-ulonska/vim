@@ -43,6 +43,7 @@
       gopls = {
         enable = true;
       };
+      typst-lsp.enable = true;
       rust-analyzer = {
         enable = true;
 	installRustc = true;
