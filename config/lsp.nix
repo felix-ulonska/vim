@@ -28,7 +28,7 @@
       pylsp = {
         enable = true;
       };
-      omnisharp = {
+      csharp-ls = {
         enable = true;
       };
       ltex = {
