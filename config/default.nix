@@ -6,16 +6,22 @@
     ./barbar.nix
     ./keymaps.nix
     ./octo.nix
+    #./lsp-csharp.nix
+    #./mason.nix
   ];
   plugins = {
+    lualine.enable = true;
+    neogen.enable = true;
     chadtree.enable =true;
     noice.enable = false;
-    noice = {
-      lsp = {
-        hover.enabled = true;
-        signature.enabled = true;
-      };
-    };
+    indent-o-matic.enable = true;
+    hmts.enable = true;
+    #noice = {
+    #  lsp = {
+    #    hover.enabled = true;
+    #    signature.enabled = true;
+    #  };
+    #};
     nvim-autopairs.enable = true;
     rainbow-delimiters.enable = true;
     treesitter.enable = true;

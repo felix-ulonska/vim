@@ -1,8 +1,10 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = ["omnisharp"]; 
+    lspServersToEnable = []; 
   };
+plugins.lsp-lines.enable = true;
+#plugins.lspsaga.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
@@ -13,6 +15,7 @@
         gi = "implementation";
         gt = "type_definition";
         ca = "code_action";
+        cr = "rename";
       };
     };
     servers = {
@@ -28,7 +31,7 @@
       pylsp = {
         enable = true;
       };
-      csharp-ls = {
+      omnisharp = {
         enable = true;
       };
       ltex = {
@@ -50,9 +53,9 @@
       };
     };
   };
-  plugins.nvim-cmp = {
-    enable = true;
-    mapping = {
+  plugins.cmp = {
+    enable = false;
+    settings.mapping = {
     "<CR>" = "cmp.mapping.confirm({ select = true })";
     "<Tab>" = {
       action = ''
@@ -76,12 +79,26 @@
       ];
     };
   };
-  sources = [
+  settings.sources = [
     { name = "nvim_lsp"; }
     { name = "luasnip"; }
     { name = "buffer"; }
     { name = "nvim_lua"; }
     { name = "path"; }
   ];
-};
+  };
+  plugins = {
+   barbecue.enable = true; 
+   harpoon = {
+     enable = true;
+     enableTelescope = true;
+     keymaps = {
+       addFile = "<leader>ma";
+       toggleQuickMenu = "<leader>ml";
+       cmdToggleQuickMenu = "<leader>mt";
+       navNext = "<leader>mn";
+       navPrev = "<leader>mp";
+     };
+   };
+  };
 }
