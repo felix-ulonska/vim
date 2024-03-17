@@ -1,4 +1,4 @@
-{
+{schema, ...}: {
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
@@ -38,5 +38,6 @@
       enable = true;
     };
   };
-  colorschemes.tokyonight.enable = true;
+  colorschemes.base16.colorscheme = schema;
+  colorschemes.base16.enable = true;
 }
