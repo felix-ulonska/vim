@@ -40,4 +40,7 @@
   };
   colorschemes.base16.colorscheme = schema;
   colorschemes.base16.enable = true;
+  extraConfigLua = ''
+vim.wo.number = true
+  '';
 }
