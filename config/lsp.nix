@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "omnisharp" ]; 
+    lspServersToEnable = [ "omnisharp" "tsserver" "eslint" ]; 
   };
 plugins.lsp-lines.enable = true;
 #plugins.lspsaga.enable = true;
@@ -43,6 +43,9 @@ plugins.lsp-lines.enable = true;
         enable = true;
       };
       gopls = {
+        enable = true;
+      };
+      eslint = {
         enable = true;
       };
       typst-lsp.enable = true;
