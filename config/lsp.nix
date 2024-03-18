@@ -22,8 +22,7 @@ plugins.lsp-lines.enable = true;
       html = {
         enable = true;
       };
-      tsserver = {
-        enable = true;
+      tsserver = { enable = true;
       };
       rnix-lsp = {
         enable = true;
@@ -54,38 +53,19 @@ plugins.lsp-lines.enable = true;
     };
   };
   plugins.cmp = {
-    enable = false;
+    enable = true;
     settings.mapping = {
     "<CR>" = "cmp.mapping.confirm({ select = true })";
-    "<Tab>" = {
-      action = ''
-        function(fallback)
-          if cmp.visible() then
-            cmp.select_next_item()
-          elseif luasnip.expandable() then
-            luasnip.expand()
-          elseif luasnip.expand_or_jumpable() then
-            luasnip.expand_or_jump()
-          elseif check_backspace() then
-            fallback()
-          else
-            fallback()
-          end
-        end
-      '';
-      modes = [
-        "i"
-        "s"
-      ];
+  "<C-Space>" = "cmp.mapping.complete()";
+  "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
     };
-  };
-  settings.sources = [
-    { name = "nvim_lsp"; }
-    { name = "luasnip"; }
-    { name = "buffer"; }
-    { name = "nvim_lua"; }
-    { name = "path"; }
-  ];
+    settings.sources = [
+      { name = "nvim_lsp"; }
+      { name = "luasnip"; }
+      { name = "buffer"; }
+      { name = "nvim_lua"; }
+      { name = "path"; }
+    ];
   };
   plugins = {
    barbecue.enable = true; 

@@ -6,6 +6,7 @@
       movePrevious = "<C-j>";
       next = "<C-l>";
       previous = "<C-h>";
+      close = "<C-x>";
     };
   };
 }

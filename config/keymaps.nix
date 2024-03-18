@@ -17,5 +17,20 @@
       key = "<leader>cf";
       mode = "n";
     }
+    {
+      action = "<cmd>Octo pr list<cr>";
+      key = "<leader>pl";
+      mode = "n";
+    }
+    {
+      action = "<cmd>Octo thread resolve<cr>";
+      key = "<leader>tr";
+      mode = "n";
+    }
+    {
+      action = "<cmd>Octo thread unresolve<cr>";
+      key = "<leader>tu";
+      mode = "n";
+    }
   ];
 }

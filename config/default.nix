@@ -14,6 +14,12 @@
     neogen.enable = true;
     chadtree.enable =true;
     noice.enable = false;
+    obsidian = {
+      enable = true;
+      settings = {
+        dir ="/home/jabbi/Nextcloud/obsidian";
+      };
+    };
     indent-o-matic.enable = true;
     hmts.enable = true;
     #noice = {
