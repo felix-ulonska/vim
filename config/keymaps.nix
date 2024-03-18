@@ -32,5 +32,10 @@
       key = "<leader>tu";
       mode = "n";
     }
+    {
+      action = "<cmd>Neogit<cr>";
+      key = "<leader>g";
+      mode = "n";
+    }
   ];
 }
