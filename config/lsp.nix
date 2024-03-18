@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = []; 
+    lspServersToEnable = [omnisharp]; 
   };
 plugins.lsp-lines.enable = true;
 #plugins.lspsaga.enable = true;
