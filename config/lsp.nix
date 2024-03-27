@@ -4,6 +4,7 @@
     lspServersToEnable = [ "omnisharp" "tsserver" "eslint" ]; 
   };
 plugins.lsp-lines.enable = true;
+plugins.lsp-lines.currentLine = true;
 #plugins.lspsaga.enable = true;
   plugins.lsp = {
     enable = true;
