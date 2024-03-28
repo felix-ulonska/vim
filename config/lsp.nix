@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "omnisharp" "tsserver" "eslint" ]; 
+    lspServersToEnable = [ "omnisharp" "efm" ]; 
   };
 plugins.lsp-lines.enable = true;
 plugins.lsp-lines.currentLine = true;
@@ -22,6 +22,12 @@ plugins.lsp-lines.currentLine = true;
     servers = {
       html = {
         enable = true;
+      };
+      efm.enable = true;
+      efm.extraOptions = {
+        init_options = {
+          documentFormatting = true;
+        };
       };
       tsserver = { enable = true;
       };
@@ -47,7 +53,7 @@ plugins.lsp-lines.currentLine = true;
         enable = true;
       };
       eslint = {
-        enable = true;
+        enable = false;
       };
       typst-lsp.enable = true;
       rust-analyzer = {

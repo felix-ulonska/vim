@@ -6,6 +6,7 @@
     ./barbar.nix
     ./keymaps.nix
     ./octo.nix
+    ./efmls.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];
