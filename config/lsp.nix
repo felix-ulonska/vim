@@ -29,8 +29,8 @@ plugins.lsp-lines.currentLine = true;
           documentFormatting = true;
         };
       };
-      tsserver = { enable = true;
-      };
+      tsserver = { enable = true; };
+      texlab.enable = true;
       rnix-lsp = {
         enable = true;
       };
