@@ -3,6 +3,14 @@
     enable = true;
     lspServersToEnable = [ "omnisharp" "efm" ]; 
   };
+  plugins.none-ls = {
+  enable = true;
+  sources = {
+    formatting = {
+      prettierd.enable = true;
+    };
+  };
+  };
 plugins.lsp-lines.enable = true;
 plugins.lsp-lines.currentLine = true;
 #plugins.lspsaga.enable = true;
