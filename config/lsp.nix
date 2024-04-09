@@ -9,6 +9,10 @@
     formatting = {
       prettierd.enable = true;
     };
+    diagnostics = {
+      codespell.enable = true;
+      protolint.enable = true;
+    };
   };
   };
 plugins.lsp-lines.enable = true;
@@ -50,8 +54,10 @@ plugins.lsp-lines.currentLine = true;
       };
       ltex = {
         enable = true;
+        filetypes = ["typescriptreact" "typescript"];
 	settings = {
-		language = "en-EN";
+    language = "en-US";
+    enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" ];
 	};
       };
       clangd = {
