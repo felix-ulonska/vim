@@ -54,10 +54,10 @@ plugins.lsp-lines.currentLine = true;
       };
       ltex = {
         enable = true;
-        filetypes = ["typescriptreact" "typescript"];
+        filetypes = ["typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown"];
 	settings = {
     language = "en-US";
-    enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" ];
+    enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" ];
 	};
       };
       clangd = {
