@@ -61,6 +61,7 @@ plugins.lsp-lines.currentLine = true;
 	};
       };
       clangd = {
+        filetypes = ["c" "cpp"];
         enable = true;
       };
       gopls = {
