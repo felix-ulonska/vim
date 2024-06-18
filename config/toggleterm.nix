@@ -1,3 +1,8 @@
-{}: {
-  plugins.toggleterm.enable = true;
-
+{...}: {
+  plugins.toggleterm = {
+    enable = true;
+    settings = {
+      open_mapping = "[[<c-\\>]]";
+    };
+  };
+}

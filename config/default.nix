@@ -23,7 +23,7 @@
       };
     };
     indent-o-matic.enable = true;
-    plugins.indent-blankline.enable = true;
+    indent-blankline.enable = true;
     hmts.enable = true;
     #noice = {
     #  lsp = {
