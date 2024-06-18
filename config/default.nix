@@ -7,6 +7,7 @@
     ./keymaps.nix
     ./octo.nix
     ./efmls.nix
+    ./toggleterm.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];
@@ -22,6 +23,7 @@
       };
     };
     indent-o-matic.enable = true;
+    plugins.indent-blankline.enable = true;
     hmts.enable = true;
     #noice = {
     #  lsp = {

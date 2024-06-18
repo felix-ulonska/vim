@@ -1,0 +1,3 @@
+{}: {
+  plugins.toggleterm.enable = true;
+

@@ -2,11 +2,11 @@
   plugins.barbar = {
     enable = true;
     keymaps = {
-      moveNext = "<C-k>";
-      movePrevious = "<C-j>";
-      next = "<C-l>";
-      previous = "<C-h>";
-      close = "<C-x>";
+      moveNext.key = "<C-k>";
+      movePrevious.key = "<C-j>";
+      next.key = "<C-l>";
+      previous.key = "<C-h>";
+      close.key = "<C-x>";
     };
   };
 }
