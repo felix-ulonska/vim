@@ -17,7 +17,7 @@
     chadtree.enable = true;
     noice.enable = true;
     transparent.enable = true;
-    plugins.lazygit.enable = true;
+    lazygit.enable = true;
     obsidian = {
       enable = true;
       settings = {
