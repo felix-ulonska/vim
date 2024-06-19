@@ -1,23 +1,23 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "efm" ]; 
+    lspServersToEnable = [ "efm" ];
   };
   plugins.none-ls = {
-  enable = true;
-  sources = {
-    formatting = {
-      prettierd.enable = true;
-    };
-    diagnostics = {
-      codespell.enable = true;
-      protolint.enable = true;
+    enable = true;
+    sources = {
+      formatting = {
+        prettierd.enable = true;
+      };
+      diagnostics = {
+        codespell.enable = true;
+        protolint.enable = true;
+      };
     };
   };
-  };
-plugins.lsp-lines.enable = true;
-plugins.lsp-lines.currentLine = true;
-#plugins.lspsaga.enable = true;
+  plugins.lsp-lines.enable = true;
+  plugins.lsp-lines.currentLine = true;
+  #plugins.lspsaga.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
@@ -54,14 +54,14 @@ plugins.lsp-lines.currentLine = true;
       };
       ltex = {
         enable = true;
-        filetypes = ["typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" ];
-	settings = {
-    language = "en-US";
-    enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" ];
-	};
+        filetypes = [ "typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" ];
+        settings = {
+          language = "en-US";
+          enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" ];
+        };
       };
       clangd = {
-        filetypes = ["c" "cpp"];
+        filetypes = [ "c" "cpp" ];
         enable = true;
       };
       gopls = {
@@ -73,16 +73,16 @@ plugins.lsp-lines.currentLine = true;
       typst-lsp.enable = true;
       rust-analyzer = {
         enable = true;
-	installRustc = true;
+        installRustc = true;
       };
     };
   };
   plugins.cmp = {
     enable = true;
     settings.mapping = {
-    "<CR>" = "cmp.mapping.confirm({ select = true })";
-  "<C-Space>" = "cmp.mapping.complete()";
-  "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
+      "<CR>" = "cmp.mapping.confirm({ select = true })";
+      "<C-Space>" = "cmp.mapping.complete()";
+      "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
     };
     settings.sources = [
       { name = "nvim_lsp"; }
@@ -93,17 +93,17 @@ plugins.lsp-lines.currentLine = true;
     ];
   };
   plugins = {
-   barbecue.enable = true; 
-   harpoon = {
-     enable = true;
-     enableTelescope = true;
-     keymaps = {
-       addFile = "<leader>ma";
-       toggleQuickMenu = "<leader>ml";
-       cmdToggleQuickMenu = "<leader>mt";
-       navNext = "<leader>mn";
-       navPrev = "<leader>mp";
-     };
-   };
+    barbecue.enable = true;
+    harpoon = {
+      enable = true;
+      enableTelescope = true;
+      keymaps = {
+        addFile = "<leader>ma";
+        toggleQuickMenu = "<leader>ml";
+        cmdToggleQuickMenu = "<leader>mt";
+        navNext = "<leader>mn";
+        navPrev = "<leader>mp";
+      };
+    };
   };
 }

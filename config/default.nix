@@ -1,4 +1,4 @@
-{schema, ...}: {
+{ schema, ... }: {
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
@@ -14,13 +14,14 @@
   plugins = {
     lualine.enable = true;
     neogen.enable = true;
-    chadtree.enable =true;
-    noice.enable = false;
+    chadtree.enable = true;
+    noice.enable = true;
     transparent.enable = true;
+    plugins.lazygit.enable = true;
     obsidian = {
       enable = true;
       settings = {
-        dir ="/home/jabbi/Nextcloud/obsidian";
+        dir = "/home/jabbi/Nextcloud/obsidian";
       };
     };
     indent-o-matic.enable = true;
@@ -39,7 +40,7 @@
     telescope = {
       enable = true;
       keymaps = {
-        "<leader>ff" = "find_files"; 
+        "<leader>ff" = "find_files";
         "<leader>fg" = "live_grep";
         "<leader>fb" = "buffers";
       };
@@ -51,6 +52,6 @@
   colorschemes.base16.colorscheme = schema;
   colorschemes.base16.enable = true;
   extraConfigLua = ''
-vim.wo.number = true
+    vim.wo.number = true
   '';
 }
