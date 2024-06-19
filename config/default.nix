@@ -16,6 +16,7 @@
     neogen.enable = true;
     chadtree.enable =true;
     noice.enable = false;
+    transparent.enable = true;
     obsidian = {
       enable = true;
       settings = {
