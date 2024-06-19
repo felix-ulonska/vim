@@ -42,5 +42,10 @@
       key = "<leader>lg";
       mode = "n";
     }
+    {
+      action = "<C-\\><C-n>";
+      key = "jk";
+      mode = "t";
+    }
   ];
 }
