@@ -8,6 +8,7 @@
     ./octo.nix
     ./efmls.nix
     ./toggleterm.nix
+    ./hop.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];

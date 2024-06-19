@@ -44,7 +44,7 @@
     }
     {
       action = "<C-\\><C-n>";
-      key = "jk";
+      key = "nm";
       mode = "t";
     }
   ];
