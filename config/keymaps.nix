@@ -38,9 +38,9 @@
       mode = "n";
     }
     {
-      key = "<leader>lg";
       action = "<cmd>LazyGit<cr>";
-      desc = "LazyGit";
+      key = "<leader>lg";
+      mode = "n";
     }
   ];
 }
