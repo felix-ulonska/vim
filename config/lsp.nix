@@ -56,7 +56,7 @@
         enable = true;
         filetypes = [ "typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" ];
         settings = {
-          language = "en-US";
+          language = "de-DE";
           enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" ];
         };
       };
