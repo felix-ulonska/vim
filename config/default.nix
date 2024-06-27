@@ -16,7 +16,11 @@
     lualine.enable = true;
     neogen.enable = true;
     chadtree.enable = true;
-    noice.enable = true;
+    noice = {
+      enable = false;
+      messages.enabled = false;
+      notify.enabled = false;
+    };
     transparent.enable = true;
     lazygit.enable = true;
     obsidian = {
