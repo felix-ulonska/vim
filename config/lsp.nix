@@ -54,10 +54,10 @@
       };
       ltex = {
         enable = true;
-        filetypes = [ "typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" ];
+        filetypes = [ "typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" "tex" ];
         settings = {
-          language = "de-DE";
-          enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" ];
+          language = "en-US";
+          enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" "tex" ];
         };
       };
       clangd = {
