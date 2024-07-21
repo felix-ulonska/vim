@@ -18,6 +18,7 @@
   plugins.lsp-lines.enable = true;
   plugins.lsp-lines.currentLine = true;
   #plugins.lspsaga.enable = true;
+  plugins.ltex-extra.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
@@ -58,6 +59,8 @@
         settings = {
           language = "en-US";
           enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" "tex" ];
+          checkFrequency = "save";
+          completionEnabled = true;
         };
       };
       clangd = {
