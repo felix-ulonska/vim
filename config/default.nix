@@ -9,6 +9,7 @@
     ./efmls.nix
     ./toggleterm.nix
     ./hop.nix
+    ./dotnet.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];

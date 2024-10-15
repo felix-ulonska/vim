@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "efm" ];
+    #lspServersToEnable = [ "efm" "omnisharp" ];
   };
   plugins.none-ls = {
     enable = true;
@@ -19,6 +19,11 @@
   plugins.lsp-lines.currentLine = true;
   #plugins.lspsaga.enable = true;
   plugins.ltex-extra.enable = true;
+  plugins.luasnip.enable = true;
+  plugins.friendly-snippets.enable = false;
+  plugins.luasnip.settings = {
+    enable_autosnippets = true;
+  };
   plugins.lsp = {
     enable = true;
     keymaps = {
@@ -44,9 +49,9 @@
       };
       tsserver = { enable = true; };
       texlab.enable = true;
-      rnix-lsp = {
-        enable = true;
-      };
+      #rnix = {
+      #  enable = true;
+      #};
       pylsp = {
         enable = true;
       };
