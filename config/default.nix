@@ -10,6 +10,7 @@
     ./toggleterm.nix
     ./hop.nix
     ./dotnet.nix
+    ./snippets.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];

@@ -19,11 +19,7 @@
   plugins.lsp-lines.currentLine = true;
   #plugins.lspsaga.enable = true;
   plugins.ltex-extra.enable = true;
-  plugins.luasnip.enable = true;
-  plugins.friendly-snippets.enable = false;
-  plugins.luasnip.settings = {
-    enable_autosnippets = true;
-  };
+  plugins.friendly-snippets.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
