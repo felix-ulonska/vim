@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "efm" "omnisharp" "none-ls" ];
+    lspServersToEnable = [ "efm" "omnisharp" ];
   };
   plugins.none-ls = {
     enable = true;
