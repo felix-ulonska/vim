@@ -11,6 +11,7 @@
     ./hop.nix
     ./dotnet.nix
     ./snippets.nix
+    ./lspsaga.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];
@@ -46,10 +47,16 @@
     treesitter-textobjects.enable = true;
     telescope = {
       enable = true;
+      extensions.fzy-native.enable = true;
       keymaps = {
         "<leader>ff" = "find_files";
         "<leader>fg" = "live_grep";
         "<leader>fb" = "buffers";
+        "<leader>fw" = "lsp_workspace_symbols";
+        "<leader>fd" = "lsp_document_symbols";
+        "<leader>lm" = ''lsp_dynamic_workspace_symbols symbols={"method","function"}'';
+        "<leader>lc" = ''lsp_dynamic_workspace_symbols symbols={"class"}'';
+        "<leader>li" = ''lsp_dynamic_workspace_symbols symbols={"interface"}'';
       };
     };
     neogit = {

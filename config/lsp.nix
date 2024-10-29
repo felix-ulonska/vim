@@ -17,20 +17,19 @@
   };
   plugins.lsp-lines.enable = true;
   plugins.lsp-lines.currentLine = true;
-  #plugins.lspsaga.enable = true;
   plugins.ltex-extra.enable = true;
   plugins.friendly-snippets.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
       lspBuf = {
-        K = "hover";
-        gD = "references";
-        gd = "definition";
-        gi = "implementation";
-        gt = "type_definition";
-        ca = "code_action";
-        cr = "rename";
+        #K = "hover";
+        #gD = "references";
+        #gd = "definition";
+        #gi = "implementation";
+        #gt = "type_definition";
+        #ca = "code_action";
+        #cr = "rename";
       };
     };
     servers = {
@@ -53,6 +52,10 @@
       };
       omnisharp = {
         enable = true;
+        settings = {
+          enableImportCompletion = true;
+          enableRoslynAnalyzers = true;
+        };
       };
       ltex = {
         enable = true;
