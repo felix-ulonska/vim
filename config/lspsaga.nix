@@ -11,6 +11,11 @@
     }
     {
       action = "<cmd>Lspsaga finder<cr>";
+      key = "<leader>cf";
+      mode = "n";
+    }
+    {
+      action = "<cmd>Lspsaga rename<cr>";
       key = "<leader>cr";
       mode = "n";
     }
