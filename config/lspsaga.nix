@@ -11,7 +11,7 @@
     }
     {
       action = "<cmd>Lspsaga finder<cr>";
-      key = "<leader>cf";
+      key = "<leader>cu";
       mode = "n";
     }
     {
