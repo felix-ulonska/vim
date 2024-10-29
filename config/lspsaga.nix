@@ -10,6 +10,11 @@
       mode = "n";
     }
     {
+      action = "<cmd>Lspsaga code_action<cr>";
+      key = "<leader>ca";
+      mode = "n";
+    }
+    {
       action = "<cmd>Lspsaga finder<cr>";
       key = "<leader>cl";
       mode = "n";
