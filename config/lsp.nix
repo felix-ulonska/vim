@@ -64,7 +64,7 @@
           language = "en-US";
           enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" "tex" ];
           checkFrequency = "save";
-          completionEnabled = true;
+          completionEnabled = false;
         };
       };
       clangd = {
