@@ -15,6 +15,7 @@
       };
     };
   };
+  plugins.tailwindcss.enable = true;
   plugins.lsp-lines.enable = true;
   plugins.lsp-lines.currentLine = true;
   plugins.ltex-extra.enable = true;
