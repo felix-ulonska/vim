@@ -15,7 +15,6 @@
       };
     };
   };
-  plugins.tailwindcss.enable = true;
   plugins.lsp-lines.enable = true;
   plugins.lsp-lines.currentLine = true;
   plugins.ltex-extra.enable = true;
@@ -38,6 +37,7 @@
         enable = true;
       };
       efm.enable = true;
+      tailwindcss.enable = true;
       efm.extraOptions = {
         init_options = {
           documentFormatting = true;
