@@ -5,12 +5,17 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
+    dap-cs = {
+      url = "/home/jabbi/Projects/nvim-dap-cs/";
+      flake = false;
+    };
   };
 
   outputs =
     { nixvim
     , flake-parts
     , nixpkgs
+    , dap-cs
     , ...
     } @ inputs:
     let
@@ -28,6 +33,7 @@
         # You can use `extraSpecialArgs` to pass additional arguments to your module files
         extraSpecialArgs = {
           # inherit (inputs) foo;
+          inherit pkgs dap-cs;
           schema = {
             base00 = "#16161D";
             base01 = "#2c313c";
@@ -54,6 +60,7 @@
         # You can use `extraSpecialArgs` to pass additional arguments to your module files
         extraSpecialArgs = {
           # inherit (inputs) foo;
+          inherit pkgs dap-cs;
           schema = schema;
         };
       };

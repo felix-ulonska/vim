@@ -7,7 +7,10 @@
     enable = true;
     sources = {
       formatting = {
-        prettierd.enable = true;
+        prettierd ={
+          enable = true;
+          disableTsServerFormatter = true;
+        };
       };
       diagnostics = {
         codespell.enable = true;
@@ -43,7 +46,7 @@
           documentFormatting = true;
         };
       };
-      tsserver = { enable = true; };
+      ts_ls = { enable = true; };
       texlab.enable = true;
       #rnix = {
       #  enable = true;
@@ -78,10 +81,10 @@
       eslint = {
         enable = false;
       };
-      typst-lsp.enable = true;
-      rust-analyzer = {
+      rust_analyzer = {
         enable = true;
         installRustc = true;
+        installCargo = true;
       };
     };
   };
@@ -94,6 +97,7 @@
     };
     settings.sources = [
       { name = "nvim_lsp"; }
+      { name = "cmp-dap"; }
       { name = "luasnip"; }
       { name = "buffer"; }
       { name = "nvim_lua"; }
