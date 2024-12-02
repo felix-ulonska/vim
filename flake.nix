@@ -2,8 +2,8 @@
   description = "A nixvim configuration";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixvim.url = "github:nix-community/nixvim";
+    nixpkgs.url = "github:nixos/nixpkgs/release-24.11";
+    nixvim.url = "github:felix-ulonska/nixvim/nixos-24.11";
     flake-parts.url = "github:hercules-ci/flake-parts";
     dap-cs = {
       url = "/home/jabbi/Projects/nvim-dap-cs/";
