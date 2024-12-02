@@ -12,6 +12,7 @@
     ./dotnet.nix
     ./snippets.nix
     ./lspsaga.nix
+    ./dap.nix
     #./lsp-csharp.nix
     #./mason.nix
   ];
@@ -19,6 +20,7 @@
     lualine.enable = true;
     neogen.enable = true;
     chadtree.enable = true;
+    web-devicons.enable = true;
     noice = {
       enable = false;
       messages.enabled = false;
