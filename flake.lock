@@ -4,13 +4,16 @@
       "flake": false,
       "locked": {
         "lastModified": 1732753242,
-        "narHash": "sha256-HaQlV6B2Enit2SF3vUeC/tBxKEyMITQtgEdIX0OcVZg=",
-        "path": "/home/jabbi/Projects/nvim-dap-cs",
-        "type": "path"
+        "narHash": "sha256-6rkHKgasaKW0MGNrA473yMtysh+BV4uA3YtqmFStRuU=",
+        "owner": "felix-ulonska",
+        "repo": "nvim-dap-cs",
+        "rev": "102965bf05f2d44ea41d5f0091b3ca0336d0f39b",
+        "type": "github"
       },
       "original": {
-        "path": "/home/jabbi/Projects/nvim-dap-cs",
-        "type": "path"
+        "owner": "felix-ulonska",
+        "repo": "nvim-dap-cs",
+        "type": "github"
       }
     },
     "devshell": {

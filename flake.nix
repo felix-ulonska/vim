@@ -6,7 +6,7 @@
     nixvim.url = "github:felix-ulonska/nixvim/nixos-24.11";
     flake-parts.url = "github:hercules-ci/flake-parts";
     dap-cs = {
-      url = "/home/jabbi/Projects/nvim-dap-cs/";
+      url = "github:felix-ulonska/nvim-dap-cs";
       flake = false;
     };
   };
