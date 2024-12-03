@@ -55,7 +55,7 @@
         enable = true;
       };
       omnisharp = {
-        enable = false;
+        enable = true;
         settings = {
           enableImportCompletion = true;
           enableRoslynAnalyzers = true;
