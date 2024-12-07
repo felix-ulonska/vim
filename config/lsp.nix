@@ -13,7 +13,7 @@
         };
       };
       diagnostics = {
-        codespell.enable = true;
+        codespell.enable = false;
         protolint.enable = true;
       };
     };
