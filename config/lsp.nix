@@ -41,6 +41,7 @@
       };
       efm.enable = true;
       tailwindcss.enable = true;
+      java_language_server.enable = true;
       efm.extraOptions = {
         init_options = {
           documentFormatting = true;
