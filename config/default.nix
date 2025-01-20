@@ -5,7 +5,6 @@
     ./lsp.nix
     ./barbar.nix
     ./keymaps.nix
-    ./octo.nix
     ./efmls.nix
     ./toggleterm.nix
     ./hop.nix
