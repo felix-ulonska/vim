@@ -48,7 +48,7 @@
         };
       };
       ts_ls = { enable = true; };
-      texlab.enable = true;
+      texlab.enable = false;
       #rnix = {
       #  enable = true;
       #};
