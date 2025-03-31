@@ -47,6 +47,7 @@
           documentFormatting = true;
         };
       };
+      angularls.enable = true;
       ts_ls = { enable = true; };
       texlab.enable = false;
       #rnix = {
