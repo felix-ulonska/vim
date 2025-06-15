@@ -1,8 +1,12 @@
 { ... }: {
-  plugins.toggleterm = {
+  plugins.floaterm = {
     enable = true;
     settings = {
-      open_mapping = "[[<c-\\>]]";
+      keymap_new = "<Leader>tn";
+      keymap_prev = "<Leader>tp";
+      keymap_next = "<Leader>tn";
+      keymap_toggle = "<Leader>tt";
+      keymap_kill = "<Leader>tk";
     };
   };
 }

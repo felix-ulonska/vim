@@ -109,15 +109,15 @@
   plugins = {
     barbecue.enable = true;
     harpoon = {
-      enable = true;
-      enableTelescope = true;
-      keymaps = {
-        addFile = "<leader>ma";
-        toggleQuickMenu = "<leader>ml";
-        cmdToggleQuickMenu = "<leader>mt";
-        navNext = "<leader>mn";
-        navPrev = "<leader>mp";
-      };
+      enable = false;
+      #enableTelescope = true;
+      #keymaps = {
+      #  addFile = "<leader>ma";
+      #  toggleQuickMenu = "<leader>ml";
+      #  cmdToggleQuickMenu = "<leader>mt";
+      #  navNext = "<leader>mn";
+      #  navPrev = "<leader>mp";
+      #};
     };
   };
 }
