@@ -11,7 +11,12 @@
           enable = true;
           disableTsServerFormatter = true;
         };
-        csharpier.enable = true;
+        csharpier =
+          enable = true;
+          settings = {
+            command = "dotnet csharpier";
+          };
+        };
       };
       diagnostics = {
         codespell.enable = false;
