@@ -11,10 +11,13 @@
           enable = true;
           disableTsServerFormatter = true;
         };
+        csharpier.enable = true;
       };
       diagnostics = {
         codespell.enable = false;
         protolint.enable = true;
+        opentofu_validate.enable = true;
+
       };
     };
   };
@@ -39,6 +42,7 @@
       html = {
         enable = true;
       };
+      terraform_lsp.enable = true;
       efm.enable = true;
       tailwindcss.enable = true;
       java_language_server.enable = true;
