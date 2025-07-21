@@ -11,7 +11,7 @@
           enable = true;
           disableTsServerFormatter = true;
         };
-        csharpier =
+        csharpier = {
           enable = true;
           settings = {
             command = "dotnet csharpier";
