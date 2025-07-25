@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    #lspServersToEnable = [ "efm" "omnisharp" ];
+    lspServersToEnable = [ "efm" "none-ls" ];
   };
   plugins.none-ls = {
     enable = true;
@@ -14,7 +14,7 @@
         csharpier = {
           enable = true;
           settings = {
-            command = "dotnet csharpier";
+            command = "dotnet-csharpier";
           };
         };
       };
