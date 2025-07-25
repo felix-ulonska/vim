@@ -14,7 +14,8 @@
         csharpier = {
           enable = true;
           settings = {
-            command = "dotnet-csharpier";
+            command = "dotnet";
+            args = ["csharpier" "format" "--write-stdout"];
           };
         };
       };
