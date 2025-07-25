@@ -1,7 +1,7 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "efm" "none-ls" ];
+    lspServersToEnable = [ "efm" "none-ls" "rust_analyzer" ];
   };
   plugins.none-ls = {
     enable = true;
