@@ -45,6 +45,7 @@
       };
     };
     servers = {
+      denols.enable = true;
       html = {
         enable = true;
       };
