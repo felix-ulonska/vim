@@ -16,6 +16,7 @@
     #./mason.nix
   ];
   plugins = {
+    ansiesc.enable = true;
     lualine.enable = true;
     neogen.enable = true;
     chadtree.enable = true;

@@ -45,6 +45,7 @@
       };
     };
     servers = {
+      arduino_language_server.enable = true;
       html = {
         enable = true;
       };
