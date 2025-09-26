@@ -46,6 +46,7 @@
     };
     servers = {
       arduino_language_server.enable = true;
+      denols.enable = true;
       html = {
         enable = true;
       };
