@@ -28,12 +28,6 @@
     };
     transparent.enable = true;
     lazygit.enable = true;
-    obsidian = {
-      enable = true;
-      settings = {
-        dir = "/home/jabbi/Nextcloud/obsidian";
-      };
-    };
     indent-o-matic.enable = true;
     indent-blankline.enable = true;
     hmts.enable = true;
