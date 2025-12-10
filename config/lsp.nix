@@ -1,13 +1,17 @@
 {
   plugins.lsp-format = {
     enable = true;
-    lspServersToEnable = [ "efm" "none-ls" "rust_analyzer" ];
+    lspServersToEnable = [
+      "efm"
+      "none-ls"
+      "rust_analyzer"
+    ];
   };
   plugins.none-ls = {
     enable = true;
     sources = {
       formatting = {
-        prettierd ={
+        prettierd = {
           enable = true;
           disableTsServerFormatter = true;
         };
@@ -15,7 +19,11 @@
           enable = true;
           settings = {
             command = "dotnet";
-            args = ["csharpier" "format" "--write-stdout"];
+            args = [
+              "csharpier"
+              "format"
+              "--write-stdout"
+            ];
           };
         };
       };
@@ -28,7 +36,6 @@
     };
   };
   plugins.lsp-lines.enable = true;
-  plugins.lsp-lines.currentLine = true;
   plugins.ltex-extra.enable = true;
   plugins.friendly-snippets.enable = true;
   plugins.lsp = {
@@ -59,7 +66,9 @@
         };
       };
       angularls.enable = true;
-      ts_ls = { enable = true; };
+      ts_ls = {
+        enable = true;
+      };
       texlab.enable = false;
       #rnix = {
       #  enable = true;
@@ -76,16 +85,44 @@
       };
       ltex = {
         enable = true;
-        filetypes = [ "typescriptreact" "typescript" "csharp" "shellscript" "latex" "markdown" "tex" ];
+        filetypes = [
+          "typescriptreact"
+          "typescript"
+          "csharp"
+          "shellscript"
+          "latex"
+          "markdown"
+          "tex"
+        ];
         settings = {
           language = "en-US";
-          enabled = [ "bibtex" "context" "context.tex" "html" "latex" "markdown" "org" "restructuredtext" "rsweave" "javascript" "javascriptreact" "typescript" "typescriptreact" "csharp" "shellscript" "tex" ];
+          enabled = [
+            "bibtex"
+            "context"
+            "context.tex"
+            "html"
+            "latex"
+            "markdown"
+            "org"
+            "restructuredtext"
+            "rsweave"
+            "javascript"
+            "javascriptreact"
+            "typescript"
+            "typescriptreact"
+            "csharp"
+            "shellscript"
+            "tex"
+          ];
           checkFrequency = "save";
           completionEnabled = false;
         };
       };
       clangd = {
-        filetypes = [ "c" "cpp" ];
+        filetypes = [
+          "c"
+          "cpp"
+        ];
         enable = true;
       };
       gopls = {

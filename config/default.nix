@@ -1,4 +1,5 @@
-{ schema, ... }: {
+{ schema, ... }:
+{
   # Import all your configuration modules here
   imports = [
     ./bufferline.nix
@@ -21,11 +22,6 @@
     neogen.enable = true;
     chadtree.enable = true;
     web-devicons.enable = true;
-    noice = {
-      enable = false;
-      messages.enabled = false;
-      notify.enabled = false;
-    };
     transparent.enable = true;
     lazygit.enable = true;
     indent-o-matic.enable = true;
