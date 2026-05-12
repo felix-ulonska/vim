@@ -20,7 +20,12 @@
     ansiesc.enable = true;
     lualine.enable = true;
     neogen.enable = true;
-    chadtree.enable = true;
+    chadtree = {
+      enable = true;
+      settings = {
+        xdg = true;
+      };
+    };
     web-devicons.enable = true;
     transparent.enable = true;
     lazygit.enable = true;
