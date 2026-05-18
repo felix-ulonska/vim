@@ -3,9 +3,9 @@
   plugins.lspsaga = {
     enable = true;
     settings = {
-      lightbulb = {
-        enable = false;
-      };
+      sign = false;
+      virtual_text = true;
+      lightbulb.enable = false;
     };
   };
   keymaps = [

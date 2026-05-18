@@ -16,6 +16,9 @@
     #./lsp-csharp.nix
     #./mason.nix
   ];
+  opts = {
+    signcolumn = "number";
+  };
   plugins = {
     ansiesc.enable = true;
     lualine.enable = true;

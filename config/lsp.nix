@@ -155,7 +155,7 @@
     ];
   };
   plugins = {
-    barbecue.enable = true;
+    barbecue.enable = false;
     harpoon = {
       enable = false;
       #enableTelescope = true;
