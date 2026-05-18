@@ -2,6 +2,11 @@
 {
   plugins.lspsaga = {
     enable = true;
+    settings = {
+      lightbulb = {
+        enable = false;
+      };
+    };
   };
   keymaps = [
     {
