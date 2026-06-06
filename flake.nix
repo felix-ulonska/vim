@@ -2,8 +2,8 @@
   description = "A nixvim configuration";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
-    nixvim.url = "github:nix-community/nixvim/nixos-25.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
+    nixvim.url = "github:nix-community/nixvim/nixos-26.05";
     flake-parts.url = "github:hercules-ci/flake-parts";
     dap-cs = {
       url = "github:felix-ulonska/nvim-dap-cs";
@@ -23,6 +23,7 @@
       system = "x86_64-linux"; # Example system, replicate this structure for each supported system
       pkgs = import nixpkgs {
         inherit system;
+        config.allowUnfree = true;
         overlays = [ ];
       };
       nixvimLib = nixvim.lib.${system};

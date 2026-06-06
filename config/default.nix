@@ -30,7 +30,6 @@
       };
     };
     web-devicons.enable = true;
-    transparent.enable = true;
     lazygit.enable = true;
     indent-o-matic.enable = true;
     indent-blankline.enable = true;
