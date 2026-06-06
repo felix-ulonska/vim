@@ -60,6 +60,7 @@
       html = {
         enable = true;
       };
+      gleam.enable = true;
       terraform_lsp.enable = true;
       efm.enable = true;
       tailwindcss.enable = true;
