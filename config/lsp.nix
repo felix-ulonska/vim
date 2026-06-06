@@ -38,6 +38,7 @@
   plugins.lsp-lines.enable = true;
   plugins.ltex-extra.enable = true;
   plugins.friendly-snippets.enable = true;
+  plugins.zig.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
