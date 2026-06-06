@@ -54,6 +54,9 @@
     };
     servers = {
       arduino_language_server.enable = true;
+      zig = {
+        enable = true;
+      };
       html = {
         enable = true;
       };
