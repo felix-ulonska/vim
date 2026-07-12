@@ -38,7 +38,6 @@
   plugins.lsp-lines.enable = true;
   plugins.ltex-extra.enable = true;
   plugins.friendly-snippets.enable = true;
-  plugins.zig.enable = true;
   plugins.lsp = {
     enable = true;
     keymaps = {
@@ -54,13 +53,9 @@
     };
     servers = {
       arduino_language_server.enable = true;
-      zls = {
-        enable = true;
-      };
       html = {
         enable = true;
       };
-      gleam.enable = true;
       terraform_lsp.enable = true;
       efm.enable = true;
       tailwindcss.enable = true;
@@ -140,6 +135,7 @@
         enable = true;
         installRustc = true;
         installCargo = true;
+        installRustfmt = true;
       };
     };
   };

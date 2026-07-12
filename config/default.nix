@@ -33,7 +33,6 @@
     lazygit.enable = true;
     indent-o-matic.enable = true;
     indent-blankline.enable = true;
-    hmts.enable = true;
     #noice = {
     #  lsp = {
     #    hover.enabled = true;
