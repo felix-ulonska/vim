@@ -31,6 +31,7 @@
     };
     web-devicons.enable = true;
     lazygit.enable = true;
+    octo.enable = true;
     indent-o-matic.enable = true;
     indent-blankline.enable = true;
     #noice = {
